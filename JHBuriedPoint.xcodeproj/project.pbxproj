@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6420176E211FBDAE00983A3D /* UIViewController+JHBuriedPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 6420176D211FBDAE00983A3D /* UIViewController+JHBuriedPoint.m */; };
+		64201771211FDE0B00983A3D /* JHMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64201770211FDE0B00983A3D /* JHMainViewController.m */; };
+		64201774211FF03E00983A3D /* JHFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64201773211FF03E00983A3D /* JHFirstViewController.m */; };
+		64201777211FF04900983A3D /* JHSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64201776211FF04900983A3D /* JHSecondViewController.m */; };
+		6420177A211FF35F00983A3D /* UIView+JHBuriedPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 64201779211FF35F00983A3D /* UIView+JHBuriedPoint.m */; };
+		6420177D212011E900983A3D /* UIControl+JHBuriedPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 6420177C212011E900983A3D /* UIControl+JHBuriedPoint.m */; };
+		642017832120293D00983A3D /* JHSwizzlingDispatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 642017822120293D00983A3D /* JHSwizzlingDispatch.m */; };
 		BEC0A71C20F8499F00DD9E28 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC0A71B20F8499F00DD9E28 /* AppDelegate.m */; };
 		BEC0A71F20F8499F00DD9E28 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC0A71E20F8499F00DD9E28 /* ViewController.m */; };
 		BEC0A72220F8499F00DD9E28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEC0A72020F8499F00DD9E28 /* Main.storyboard */; };
@@ -35,6 +42,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6420176C211FBDAE00983A3D /* UIViewController+JHBuriedPoint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+JHBuriedPoint.h"; sourceTree = "<group>"; };
+		6420176D211FBDAE00983A3D /* UIViewController+JHBuriedPoint.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+JHBuriedPoint.m"; sourceTree = "<group>"; };
+		6420176F211FDE0B00983A3D /* JHMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JHMainViewController.h; sourceTree = "<group>"; };
+		64201770211FDE0B00983A3D /* JHMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JHMainViewController.m; sourceTree = "<group>"; };
+		64201772211FF03E00983A3D /* JHFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JHFirstViewController.h; sourceTree = "<group>"; };
+		64201773211FF03E00983A3D /* JHFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JHFirstViewController.m; sourceTree = "<group>"; };
+		64201775211FF04900983A3D /* JHSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JHSecondViewController.h; sourceTree = "<group>"; };
+		64201776211FF04900983A3D /* JHSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JHSecondViewController.m; sourceTree = "<group>"; };
+		64201778211FF35F00983A3D /* UIView+JHBuriedPoint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+JHBuriedPoint.h"; sourceTree = "<group>"; };
+		64201779211FF35F00983A3D /* UIView+JHBuriedPoint.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+JHBuriedPoint.m"; sourceTree = "<group>"; };
+		6420177B212011E900983A3D /* UIControl+JHBuriedPoint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIControl+JHBuriedPoint.h"; sourceTree = "<group>"; };
+		6420177C212011E900983A3D /* UIControl+JHBuriedPoint.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIControl+JHBuriedPoint.m"; sourceTree = "<group>"; };
+		642017812120293D00983A3D /* JHSwizzlingDispatch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JHSwizzlingDispatch.h; sourceTree = "<group>"; };
+		642017822120293D00983A3D /* JHSwizzlingDispatch.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JHSwizzlingDispatch.m; sourceTree = "<group>"; };
 		BEC0A71720F8499F00DD9E28 /* JHBuriedPoint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JHBuriedPoint.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEC0A71A20F8499F00DD9E28 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BEC0A71B20F8499F00DD9E28 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -110,6 +131,20 @@
 				BEC0A72520F849A000DD9E28 /* LaunchScreen.storyboard */,
 				BEC0A72820F849A000DD9E28 /* Info.plist */,
 				BEC0A72920F849A000DD9E28 /* main.m */,
+				6420176C211FBDAE00983A3D /* UIViewController+JHBuriedPoint.h */,
+				6420176D211FBDAE00983A3D /* UIViewController+JHBuriedPoint.m */,
+				64201778211FF35F00983A3D /* UIView+JHBuriedPoint.h */,
+				64201779211FF35F00983A3D /* UIView+JHBuriedPoint.m */,
+				6420177B212011E900983A3D /* UIControl+JHBuriedPoint.h */,
+				6420177C212011E900983A3D /* UIControl+JHBuriedPoint.m */,
+				6420176F211FDE0B00983A3D /* JHMainViewController.h */,
+				64201770211FDE0B00983A3D /* JHMainViewController.m */,
+				64201772211FF03E00983A3D /* JHFirstViewController.h */,
+				64201773211FF03E00983A3D /* JHFirstViewController.m */,
+				64201775211FF04900983A3D /* JHSecondViewController.h */,
+				64201776211FF04900983A3D /* JHSecondViewController.m */,
+				642017812120293D00983A3D /* JHSwizzlingDispatch.h */,
+				642017822120293D00983A3D /* JHSwizzlingDispatch.m */,
 			);
 			path = JHBuriedPoint;
 			sourceTree = "<group>";
@@ -262,9 +297,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64201771211FDE0B00983A3D /* JHMainViewController.m in Sources */,
+				6420176E211FBDAE00983A3D /* UIViewController+JHBuriedPoint.m in Sources */,
 				BEC0A71F20F8499F00DD9E28 /* ViewController.m in Sources */,
+				6420177D212011E900983A3D /* UIControl+JHBuriedPoint.m in Sources */,
 				BEC0A72A20F849A000DD9E28 /* main.m in Sources */,
+				642017832120293D00983A3D /* JHSwizzlingDispatch.m in Sources */,
+				6420177A211FF35F00983A3D /* UIView+JHBuriedPoint.m in Sources */,
+				64201777211FF04900983A3D /* JHSecondViewController.m in Sources */,
 				BEC0A71C20F8499F00DD9E28 /* AppDelegate.m in Sources */,
+				64201774211FF03E00983A3D /* JHFirstViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
